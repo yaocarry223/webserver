@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\http",
+    "\\log",
     "\\threadpool"
   ],
-  "SelectedNode": "\\http\\http_conn.cpp",
+  "SelectedNode": "\\log\\log.cpp",
   "PreviewInSolutionExplorer": false
 }
