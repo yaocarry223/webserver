@@ -11,7 +11,7 @@ threadpool<T>::threadpool(int actor_model, connection_pool *connPool, int thread
     m_threads = new pthread_t[m_thread_number];
     if (!m_threads)
         throw std::exception();
-    for (int i = 0; i < thread_number; ++i)
+    for (int i = 0; i < thread_number; ++i)//创建thread_number
     {
         //循环创建线程，并将工作线程按照要求进行运行
         if (pthread_create(m_threads + i, NULL, worker, this) != 0)
